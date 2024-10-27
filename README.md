@@ -2,10 +2,14 @@
 SNHU Current/Emerging Trends in CS
 
 ## Briefly explain the work that you did on this project: What code were you given? What code did you create yourself?
-
+  We were given all of the initial code besides that of the Q-learning algorithm to get the pirate agent to learn to traverse the created maze and make it to the treasure at the end. We had to utilize the deep Q-learning algorithm to implement the code to get the agent to do the actual learning. I have provided a screenshot showing the direct code that was created:
+  ![image](https://github.com/user-attachments/assets/a73c2948-f1f7-4325-bae8-e3c82c056f24)
+  ![image](https://github.com/user-attachments/assets/c14f6c31-d4fb-4c15-ad27-9afdeb80113f)
+  I also added a line that gradually reduces the epsilon to better control the exploration vs exploitation curve, driving the agent to utilize what it has learned and exploit higher rewards as time goes on.
 ## Connect your learning from throughout this course to the larger field of computer science:
   ## What do computer scientists do and why does it matter?
-
+  Computer scientists design, develop, and utilize software in many environments to help benefit people as well as organizations as a whole. Through these services, they help drive technological advances in hardware and software and help ensure these advancements are safe and performing the intended functions. This all matters as ultimately the goal is to help people, whether that is a piece of software that helps speed up a users workflow or technology like that of AI that can potentially help shape society for years to come.
   ## How do I approach a problem as a computer scientist?
-
+  For me, when I start trying to solve a problem I try to lay it out in multiple approaches before starting any work. This helps me get a better idea of specifically how the end user will use this solution, as well as how the other developers that would be interacting with the software will view my work and allow them to more easily step in and provide their own work. Taking this initial step back to visualize everything as a whole helps ensure that I am making something that is actually going to solve the problem efficiently. It is extremely easy to lose track of the end goal as development continues, either getting too focused on other features and providing a solution that only partially solves the overall problem. I then break everything down into smaller blocks, allowing me to build up a solution over time, and allow for easier future features or fixes.
   ## What are my ethical responsibilities to the end user and the organization?
+  The biggest of ethical responsibilities are to ensure that the users data and information remains secure. We should also be developing software that enriches and improves the user's life and experience. For the organization we must ensure that we developing to not waste resources so that the organization can continue to have the proper resources to develop this beneficial software.
